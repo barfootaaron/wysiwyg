@@ -1,0 +1,32 @@
+img {
+	width: 100px;
+	height: 100px;
+}
+
+#cardGrid {
+	display: block;
+	width: 90%;
+	margin: auto;
+}
+
+article.bioCards {
+	display: inline-block;
+	width: 25%;
+	height: 400px;
+	margin: 2.5%;
+	padding: 5px;
+	float: left;
+	text-align: center;
+}
+
+article.bioCards:nth-child(even) {
+	background-color: lightyellow;
+}
+
+article.bioCards:nth-child(odd) {
+	background-color: lightblue;
+}
+
+.border {
+	border: 2px dotted gray;
+}
